@@ -28,10 +28,10 @@ const curried = curry(funcMul);
 
 const step1 = curried(2);
 
-const step2 = curried();
+const step2 = step1();
 
-const step3 = step2(3);
+const result = step2(3);
 
-const result = step3();
+// const result1 = result(); This will give error because result is 6
 
 console.log(result);
