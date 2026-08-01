@@ -35,3 +35,5 @@ const result = step2(3);
 // const result1 = result(); This will give error because result is 6
 
 console.log(result);
+console.log("Another way___________________________________________");
+console.log(curried(2)(3))
