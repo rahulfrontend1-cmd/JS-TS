@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug TS",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "npx",
+        "runtimeArgs": ["tsx"],
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "skipFiles": ["<node_internals>/**"]
+      }
+    ]
+  }
